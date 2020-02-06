@@ -1,0 +1,87 @@
+
+body {
+    background: url(../images/bg-intro-mobile.png);
+    background-color: hsl(0, 100%, 74%);
+    font-family: "Poppins";
+}
+
+.west-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.west-side > p {
+    padding: 0 7%;
+    font-weight: 400;
+}
+
+.east-side {
+    margin: 0 10px;
+}
+
+.cta {
+    background-color: hsl(248, 32%, 49%);
+    padding: 2px 80px;
+    text-align: center;
+    color: white;
+    font-weight: 200;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 1px 4px 11px 1px rgba(0,0,0,0.75);
+}
+
+.for-free {
+    font-weight: 700;
+}
+
+.contact {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 4px 11px 1px rgba(0,0,0,0.75);
+}
+
+.contact > form > input {
+    border: 1px solid #e2e2e2;
+    border-radius: 7px;
+    font-weight: 500;
+    padding: 15px 0px 15px 10px;
+    
+    margin-bottom: 20px;
+    width: 97%;
+}
+
+.submit-btn {
+    background-color: hsl(154, 59%, 51%);
+    width: 100%;
+    padding: 15px;
+    font-family: "Poppins";
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    font-weight: 600;
+    border: 1px solid hsl(154, 59%, 51%);
+    box-shadow: 1px 4px 5px 1px rgba(0,0,0,0.75);
+    border-radius: 7px;
+    color: white;
+}
+
+.terms {
+    text-align: center;
+    font-weight: 300;
+    color: #e2e2e2;
+    padding: 0 30px;
+}
+
+.terms > a {
+    color: rgb(255, 187, 0);
+}
